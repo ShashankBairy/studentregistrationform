@@ -1,0 +1,120 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-top: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("colorkit\ \(2\).png");
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.outerbox{      
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.form-container{
+    margin: 8px;
+    width: 400px;
+    background:white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding-bottom: 10px;
+}
+input{
+    border: 2px solid #9c9c9c78;
+    padding: 8px;
+    border-radius: 10px;
+}
+button{
+    margin: 0 auto;
+    display: grid;
+    cursor: pointer;
+}   
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table,
+th, td{
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+th {
+background-color:white;
+}
+.stable{
+    flex-grow: 2;
+    margin: 10px;
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+/* Button styling */
+
+.btn {
+    padding: 0; 
+    border: none; 
+    background-color: transparent; 
+    color: #4CAF50; 
+    cursor: pointer;
+    transition: color 0.3s; 
+    font-size: inherit;
+}
+.btn:hover {
+    color: #f2f2f2; 
+    background-color: #4CAF50;
+    width:50%;
+    border-radius: 10px;
+}
+.editbtn{
+    padding: 0; 
+    border: none; 
+    background-color: transparent; 
+    color: #4CAF50; 
+    cursor: pointer;
+    transition: color 0.3s; 
+    font-size: inherit; 
+}
+
+.editbtn:hover {
+    color: #f2f2f2; 
+    background-color: #4CAF50;
+    width:50%;
+    border-radius: 10px;
+}
+
+.deletebtn {
+    padding: 0; 
+    border: none; 
+    background-color: transparent; 
+    color: #d32f2f; 
+    cursor: pointer;
+    transition: color 0.3s; 
+    font-size: inherit; 
+}
+
+.deletebtn:hover {
+    color: #f2f2f2; 
+    background-color:#d32f2f ;
+    width:50%;
+    border-radius: 10px;
+}
